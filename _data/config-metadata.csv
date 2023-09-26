@@ -1,16 +1,17 @@
-field,display_name,browse_link,external_link
-title,Title,,
-creator,Creator,,
-date,Date Created,,
-description,Description,,
-subject,Subjects,TRUE,
-location,Location,,
-latitude,Latitude,,
-longitude,Longitude,,
-source,Source,,
-identifier,Source Identifier,,
-type,Type,,
-format,Format,,
-rights,Rights,,
-rightsstatement,Rights Statement,,TRUE
-paratext type,Paratext Type,,
+field,display_name,browse_link,external_link,dc_map,schema_map
+title,Title,,,DCTERMS.title,headline
+paratext type,Paratext type,,,,
+creator,Creator,,,DCTERMS.creator,creator
+date,Date Created,,,DCTERMS.date,dateCreated
+description,Description,,,DCTERMS.description,description
+tag,Tags,,,,tag
+subject,Subjects,TRUE,,DCTERMS.subject,keywords
+location,Location,,,,contentLocation
+latitude,Latitude,,,,
+longitude,Longitude,,,,
+source,Source,,,,
+identifier,Source Identifier,,,,
+type,Type,,,DCTERMS.type,
+gcd link,GCD ID,,,,
+format,Format,,,,encodingFormat
+rightsstatement,,,,DCTERMS.rights,license
