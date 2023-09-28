@@ -4,3 +4,4 @@ creator,Creator,,,
 paratext type,Paratext Type,TRUE,,Paratext Type
 location,,TRUE,,
 subject,Subject,TRUE,,
+tag,Tags,TRUE,,
