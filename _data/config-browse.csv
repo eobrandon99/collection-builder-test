@@ -2,6 +2,5 @@ field,display_name,btn,hidden,sort_name
 date,Date,,,Date
 creator,Creator,,,
 paratext type,Paratext Type,TRUE,,Paratext Type
-location,,TRUE,,
 subject,Subject,TRUE,,
 tag,Tags,TRUE,,
